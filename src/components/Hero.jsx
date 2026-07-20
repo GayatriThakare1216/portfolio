@@ -7,7 +7,7 @@ import SocialLinks from "./SocialLinks";
 import Button from "./Button";
 import personalInfo from "../data/personalInfo";
 import profile from "../assets/images/profile.png";
-import ParticlesBackground from "./ParticlesBackground";
+
 
 function Hero() {
   return (
@@ -39,7 +39,7 @@ function Hero() {
         text-slate-900 dark:text-white transition-colors duration-500"
       >
 
-        <ParticlesBackground />
+        
 
 
         {/* Background Glow */}
