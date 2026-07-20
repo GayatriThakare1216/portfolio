@@ -46,7 +46,7 @@ className="cursor-pointer"
 
 <h1 className="text-2xl font-bold">
   <span className="text-blue-600">Gayatri</span>
-  <span className="text-slate-900 dark:text-white">.</span>
+  <span className="text-slate-900 dark:text-white"></span>
 </h1>
 
 </Link>

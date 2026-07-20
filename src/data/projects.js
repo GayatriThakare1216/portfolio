@@ -49,7 +49,7 @@ const projects = [
 
 
     image:
-      "/src/assets/images/appointment.png",
+      "/images/appointment.png",
 
 
     github:
