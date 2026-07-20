@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color .3s, color .3s;
+  background: #020617;
+}
+
+::selection {
+  background: #2563eb;
+  color: white;
+}
+
+
+.info-card{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:16px;
+  border-radius:16px;
+  background:white;
+  border:1px solid #e2e8f0;
+  transition:all .3s ease;
+}
+
+.info-card:hover{
+  border-color:#3b82f6;
+  transform:translateY(-5px);
+}
+
+
+.dark .info-card{
+  background:#0f172a;
+  border-color:#334155;
+}
