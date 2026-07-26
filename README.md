@@ -169,7 +169,7 @@ src
 ## 🏠 Home Section
 
 <p align="center">
-<img src="./src/assets/home.png" width="100%">
+<img src="./public/images/home.png" width="100%">
 </p>
 
 
@@ -178,7 +178,7 @@ src
 ## 👩‍💻 About Section
 
 <p align="center">
-<img src="./src/assets/about.png" width="100%">
+<img src="./public/images/about.png" width="100%">
 </p>
 
 
@@ -187,7 +187,7 @@ src
 ## 🛠️ Skills Section
 
 <p align="center">
-<img src="./src/assets/skills.png" width="100%">
+<img src="./public/images/skills.png" width="100%">
 </p>
 
 
@@ -196,7 +196,7 @@ src
 ## 🚀 Projects Section
 
 <p align="center">
-<img src="./src/assets/projects.png" width="100%">
+<img src="./public/images/projects.png" width="100%">
 </p>
 
 
@@ -205,7 +205,7 @@ src
 ## 🏆 Certificates Section
 
 <p align="center">
-<img src="./src/assets/certificates.png" width="100%">
+<img src="./public/images/certificates.png" width="100%">
 </p>
 
 
@@ -214,7 +214,7 @@ src
 ## 📞 Contact Section
 
 <p align="center">
-<img src="./src/assets/contact.png" width="100%">
+<img src="./public/images/contact.png" width="100%">
 </p>
 
 
