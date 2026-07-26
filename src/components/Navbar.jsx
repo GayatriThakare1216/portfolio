@@ -20,6 +20,7 @@ function Navbar() {
     { name: "Experience", to: "experience" },
     { name: "Education", to: "education" },
     { name: "Projects", to: "projects" },
+    { name: "Certificates", to: "certificates" },
     { name: "Contact", to: "contact" },
   ];
 
