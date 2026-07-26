@@ -19,9 +19,9 @@ const personalInfo = {
 
   email: "gayatrithakare128@gmail.com",
 
-  github: "https://github.com/gayatripixel",
+  github: "https://github.com/GayatriThakare1216",
 
-  linkedin: "https://www.linkedin.com/in/gayatri-thakare-32a9b4378/",
+  linkedin: "https://www.linkedin.com/in/gayatrithakare12/",
 
   about:
     "Frontend Developer passionate about building modern, responsive and user-friendly web applications using React.js, JavaScript and Tailwind CSS. I enjoy creating clean UI, interactive user experiences and writing maintainable code. Currently looking for Frontend Developer opportunities to contribute, learn and grow.",
@@ -32,7 +32,7 @@ const personalInfo = {
       institute: "NCRD's Sterling Institute",
       university: "University of Mumbai",
       year: "2024 - 2026",
-      percentage: "72.36%",
+      score: "CGPA 7.58065",
     },
 
     {
@@ -40,8 +40,8 @@ const personalInfo = {
       institute: "",
       university: "University of Mumbai",
       year: "",
-      cgpa: "8.70",
-      percentage: "72.77%",
+      score: "CGPA 8.70",
+
     },
 
     {

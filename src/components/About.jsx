@@ -20,7 +20,7 @@ function About() {
 
 const stats = [
   {
-    number:"3+",
+    number:"4+",
     title:"Projects"
   },
   {

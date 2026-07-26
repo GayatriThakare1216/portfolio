@@ -120,7 +120,7 @@ dark:text-slate-300"
                 dark:bg-slate-900 dark:border-slate-800"
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-                  3+
+                  4+
                 </h3>
 
                 <p className="text-slate-500 dark:text-slate-400 text-sm">

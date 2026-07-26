@@ -31,10 +31,13 @@ const certificates = [
   },
   {
     id: 5,
-    title: "Internship Completion Certificate",
+    title: "Frontend Developer Internship",
     issuer: "SMART ACCESS",
-    year: "june-2026",
-  },  
+    year: "June-2026",
+    Credential_ID: "Internship Completion Certificate",
+    description:
+     "Completed Frontend Developer Internship at SMART ACCESS and developed a Smart Appointment Booking SaaS application using Django, Python, PostgreSQL, HTML, CSS and JavaScript."
+  },
   {
     id: 6,
     title: "Application Development with AI & Essential Skills",
