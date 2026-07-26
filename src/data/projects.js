@@ -1,180 +1,261 @@
 
 const projects = [
 
-  {
-    id: 1,
+{
+id:1,
 
-    title: "Appointment Booking SaaS",
+title:"AppointmentHub SaaS",
 
-    type:"Full Stack",
+type:"Full Stack",
 
-    category: "Full Stack Application",
+category:"SaaS Application",
 
-    description:
-      "A full-stack appointment booking platform with customer booking, owner dashboard, authentication and responsive UI.",
+description:
+"A full-stack appointment booking platform that helps businesses manage appointments, customers and schedules through a modern dashboard.",
 
 
-    overview:
-      "A SaaS based appointment management system where customers can book appointments and business owners can manage schedules through an admin dashboard.",
+overview:
+"A SaaS based appointment management system built for service businesses with customer booking workflow, business dashboard and analytics.",
 
 
-    features: [
-      "Customer appointment booking",
-      "Owner dashboard management",
-      "Authentication system",
-      "Responsive UI design",
-      "PostgreSQL database integration",
-    ],
+features:[
+"Customer appointment booking",
+"Business owner dashboard",
+"Authentication system",
+"Appointment management",
+"Staff and service management",
+"Analytics dashboard",
+"PostgreSQL database"
+],
 
 
-    challenges:
-      "Built complete frontend architecture, integrated APIs, managed responsive layouts and handled dashboard UI components.",
+challenges:
+"Designed complete application architecture, managed dashboard workflows, integrated backend services and created responsive layouts.",
 
 
-    role:
-      "Frontend Developer - Designed UI, created reusable React components and implemented responsive layouts.",
+role:
+"Full Stack Developer - Built frontend UI, implemented Django backend integration and designed reusable components.",
 
 
-    duration:
-      "2 Months",
+duration:
+"4 Months",
 
 
-    tech: [
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-    ],
+tech:[
+"Python",
+"Django",
+"PostgreSQL",
+"HTML",
+"CSS",
+"Tailwind CSS"
+],
 
 
-    image:
-      "/images/appointment.png",
+image:
+"/images/appointment.png",
 
 
-    github:
-      "https://github.com/gayatripixel/Appointment-Booking-SaaS",
+github:
+"https://github.com/gayatripixel/Appointment-Booking-SaaS",
 
 
-    live:"#",
-  },
+live:"#"
 
+},
 
 
-  {
-    id: 2,
 
-    title: "Flipkart Clone",
+{
+id:2,
 
-    type:"Frontend",
+title:"Nexora - Modern E-Commerce",
 
-    category: "E-Commerce",
+type:"Frontend",
 
+category:"E-Commerce Platform",
 
-    description:
-      "Responsive e-commerce website with authentication, search, cart and product pages.",
 
+description:
+"A premium modern e-commerce platform with shopping features, authentication, wishlist, cart and admin dashboard.",
 
-    overview:
-      "A Flipkart inspired e-commerce platform focusing on modern UI, product browsing and shopping experience.",
 
+overview:
+"A responsive e-commerce application focused on modern UI, smooth animations and scalable React architecture.",
 
-    features:[
-      "Product listing page",
-      "Search functionality",
-      "Product details page",
-      "Authentication flow",
-      "Responsive design",
-    ],
 
+features:[
+"Product listing",
+"Product details",
+"Shopping cart",
+"Wishlist",
+"Product comparison",
+"Authentication",
+"Admin dashboard",
+"Dark mode"
+],
 
-    challenges:
-      "Focused on building reusable components, responsive layouts and improving user experience.",
 
+challenges:
+"Created reusable React components, implemented state management and optimized responsive user experience.",
 
-    role:
-      "Frontend Developer - Created UI components and implemented shopping interface.",
 
+role:
+"Frontend Developer - Designed complete frontend architecture using React and Tailwind CSS.",
 
-    duration:
-      "Ongoing Project",
 
+duration:
+"2 Months",
 
-    tech:[
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-    ],
 
+tech:[
+"React.js",
+"Vite",
+"Tailwind CSS",
+"Zustand",
+"React Query",
+"React Router"
+],
 
-    image:
-      "/src/assets/images/flipkart.png",
 
+image:
+"/images/nexora_Ecommerce.png",
 
-    github:"#",
 
-    live:"#",
-  },
+github:
+"https://github.com/gayatripixel/modern-ecommerce",
 
 
+live:
+"https://modern-ecommerce-virid.vercel.app/"
 
-  {
-    id:3,
+},
 
 
-    title:"AI Powered E-commerce",
 
-    type:"AI",
+{
+id:3,
 
-    category:"AI + Full Stack",
 
+title:"ExpenseTrack",
 
-    description:
-      "Modern e-commerce application with AI powered product recommendations and Stripe integration.",
+type:"Frontend",
 
+category:"Finance Management Application",
 
-    overview:
-      "An advanced e-commerce platform combining online shopping features with AI based product recommendation system.",
 
+description:
+"A modern expense management application to track income, expenses and financial activities through an interactive dashboard.",
 
-    features:[
-      "AI product recommendations",
-      "Product management",
-      "Shopping cart",
-      "Stripe payment integration",
-      "Modern responsive UI",
-    ],
 
+overview:
+"ExpenseTrack is a personal finance management application built with React that helps users organize transactions and monitor spending insights.",
 
-    challenges:
-      "Working on AI recommendation flow, payment integration and full-stack architecture.",
 
+features:[
+"Expense tracking",
+"Income management",
+"Dashboard analytics",
+"Category based expenses",
+"Responsive UI",
+"Interactive charts"
+],
 
-    role:
-      "Full Stack Developer - Developing frontend UI and integrating backend services.",
 
+challenges:
+"Built dashboard components, managed application state and created a clean finance-focused user experience.",
 
-    duration:
-      "Ongoing Project",
 
+role:
+"Frontend Developer - Developed UI components and implemented frontend architecture.",
 
-    tech:[
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Stripe",
-    ],
 
+duration:
+"1 Month",
 
-    image:
-      "/src/assets/images/ecommerce.png",
 
+tech:[
+"React.js",
+"Vite",
+"Tailwind CSS",
+"JavaScript",
+"Zustand"
+],
 
-    github:"#",
 
-    live:"#",
-  },
+image:
+"/images/expenseTrack.png",
 
+
+github:
+"https://github.com/GayatriThakare1216/ExpenseTrack",
+
+
+live:"https://expense-track-ashy.vercel.app/"
+
+},
+
+
+
+{
+id:4,
+
+
+title:"Developer Portfolio",
+
+type:"Frontend",
+
+category:"Personal Website",
+
+
+description:
+"A modern developer portfolio website showcasing projects, skills, experience and frontend development work.",
+
+
+overview:
+"A responsive portfolio website designed to present professional profile, projects and technical skills with modern UI animations.",
+
+
+features:[
+"Project showcase",
+"Responsive design",
+"Modern animations",
+"Contact section",
+"Dark mode",
+"Professional UI"
+],
+
+
+challenges:
+"Designed personal branding website with reusable components and responsive layouts.",
+
+
+role:
+"Frontend Developer - Designed and developed complete portfolio experience.",
+
+
+duration:
+"1 Month",
+
+
+tech:[
+"React.js",
+"Vite",
+"Tailwind CSS",
+"Framer Motion",
+"JavaScript"
+],
+
+
+image:
+"/images/portfolio.png",
+
+
+github:"https://github.com/GayatriThakare1216/portfolio",
+
+
+live:"https://portfolio-e5m1.vercel.app/"
+
+}
 
 ];
 

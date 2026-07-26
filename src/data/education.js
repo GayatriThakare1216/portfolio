@@ -2,14 +2,14 @@ const education = [
   {
     degree: "Master of Computer Applications (MCA)",
     institute: "NCRD's Sterling Institute of Management Studies, University of Mumbai",
-    score: "72.36%",
+    score: "CGPA 7.58065",
     year: "2024 - 2026",
   },
 
   {
     degree: "Bachelor of Science in Information Technology (B.Sc IT)",
     institute: "B. K. Birla College Kalyan ,University of Mumbai",
-    score: "CGPA 8.70 (Approx. 82.65%)",
+    score: "CGPA 8.70",
     year: "2021 - 2024",
   },
 

@@ -1,10 +1,10 @@
 const socialLinks = {
-  github: "https://github.com/gayatripixel",
+  github: "https://github.com/GayatriThakare1216",
 
   linkedin:
-    "https://www.linkedin.com/in/gayatri-thakare-32a9b4378/",
+    "https://www.linkedin.com/in/gayatrithakare12/",
 
-  email: "mailto:gayatri128@gmail.com",
+  email: "mailto:gayatrithakare128@gmail.com",
 };
 
 export default socialLinks;
