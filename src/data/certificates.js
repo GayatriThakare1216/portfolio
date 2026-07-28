@@ -7,7 +7,7 @@ const certificates = [
     issuer: "Udemy",
     year: "july-2026",
     Credential_ID: "UC-a85cf9df-e025-43bb-b398-bbfb1b7e8bd5",
-    Certificate_url: "ude.my/UC-a85cf9df-e025-43bb-b398-bbfb1b7e8bd5"
+    Certificate_url: "https://www.udemy.com/certificate/UC-a85cf9df-e025-43bb-b398-bbfb1b7e8bd5/"
   },
   {
     id: 2,
