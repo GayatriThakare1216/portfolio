@@ -289,17 +289,7 @@ certificate.Certificate_url && (
 
 href={
 
-certificate.Certificate_url.startsWith("http")
-
-?
-
-certificate.Certificate_url
-
-:
-
-`https://${certificate.Certificate_url}`
-
-}
+certificate.Certificate_url}
 
 target="_blank"
 
