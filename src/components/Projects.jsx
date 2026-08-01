@@ -17,7 +17,7 @@ function Projects() {
     "All",
     "Frontend",
     "Full Stack",
-    "AI",
+
   ];
 
 
@@ -58,6 +58,24 @@ function Projects() {
           subtitle="Portfolio"
           title="Featured Projects"
         />
+
+
+<p
+  className="
+    text-center
+    max-w-3xl
+    mx-auto
+    mt-4
+    mb-10
+    text-slate-600
+    dark:text-slate-400
+    leading-7
+  "
+>
+  A collection of real-world frontend and full-stack projects showcasing my
+  experience in building responsive, scalable and user-friendly web
+  applications using modern technologies.
+</p>
 
 
 

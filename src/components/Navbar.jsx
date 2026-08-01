@@ -4,7 +4,7 @@ import { ThemeContext } from "../context/ThemeContext";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import personalInfo from "../data/personalInfo";
-
+import { FaFileDownload } from "react-icons/fa";
 
 function Navbar() {
 
@@ -27,9 +27,21 @@ function Navbar() {
 
   return (
 
-<header className="fixed top-0 left-0 w-full z-[999] backdrop-blur-lg border-b
-bg-white/90 dark:bg-slate-950/90
-border-gray-200 dark:border-slate-800">
+<header
+className="
+fixed
+top-0
+left-0
+w-full
+z-[999]
+backdrop-blur-xl
+bg-white/80
+dark:bg-slate-950/80
+border-b
+border-slate-200
+dark:border-slate-800
+shadow-sm
+">
 
 
 <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
@@ -45,9 +57,9 @@ offset={-70}
 className="cursor-pointer"
 >
 
-<h1 className="text-2xl font-bold">
+<h1 className="text-2xl font-extrabold tracking-wide">
   <span className="text-blue-600">Gayatri</span>
-  <span className="text-slate-900 dark:text-white"></span>
+  <span className="text-slate-900 dark:text-white">.</span>
 </h1>
 
 </Link>
@@ -75,6 +87,7 @@ cursor-pointer
 text-slate-700
 dark:text-gray-300
 hover:text-blue-600
+hover:-translate-y-0.5
 dark:hover:text-blue-400
 transition-all
 duration-300
@@ -129,9 +142,11 @@ after:transition-all
   href={personalInfo.resume}
   target="_blank"
   rel="noreferrer"
-className="
+  className="
 hidden
-lg:block
+lg:flex
+items-center
+gap-2
 bg-gradient-to-r
 from-blue-600
 to-cyan-500
@@ -147,6 +162,7 @@ transition-all
 duration-300
 "
 >
+  <FaFileDownload />
   Resume
 </a>
 
@@ -202,6 +218,8 @@ navLinks.map((item)=>(
   smooth={true}
   duration={500}
   offset={-70}
+  spy={true}
+  activeClass="text-blue-600 dark:text-blue-400 font-semibold"
   onClick={() => setMenuOpen(false)}
 className="
 cursor-pointer

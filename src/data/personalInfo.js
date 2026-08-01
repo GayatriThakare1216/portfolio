@@ -6,13 +6,14 @@ const personalInfo = {
   resume: "/resume/Gayatri_Thakare_Resume.pdf",
 
   heroDescription:
-  "I build modern, responsive and user-friendly web applications using React.js, JavaScript and Tailwind CSS.",
+  "I build fast, responsive and scalable web applications using React.js, Next.js, JavaScript and Tailwind CSS. Passionate about creating clean user interfaces, reusable components and seamless user experiences.",
 
   roles: [
     "Frontend Developer",
     "React.js Developer",
+    "Next.js Developer",
     "JavaScript Developer",
-    "Responsive UI Developer",
+
   ],
 
   location: "Vasind, Maharashtra",
@@ -24,7 +25,7 @@ const personalInfo = {
   linkedin: "https://www.linkedin.com/in/gayatrithakare12/",
 
   about:
-    "Frontend Developer passionate about building modern, responsive and user-friendly web applications using React.js, JavaScript and Tailwind CSS. I enjoy creating clean UI, interactive user experiences and writing maintainable code. Currently looking for Frontend Developer opportunities to contribute, learn and grow.",
+    "Frontend Developer passionate about building modern, responsive and scalable web applications using React.js, Next.js, JavaScript and Tailwind CSS. I enjoy creating clean user interfaces, reusable components and interactive user experiences. Currently seeking Frontend Developer opportunities where I can contribute to real-world products, collaborate with experienced teams and continuously enhance my skills.",
 
   education: [
     {
@@ -32,11 +33,11 @@ const personalInfo = {
       institute: "NCRD's Sterling Institute",
       university: "University of Mumbai",
       year: "2024 - 2026",
-      score: "CGPA 7.58065",
+      score: "CGPA: 7.58 / 10",
     },
 
     {
-      degree: "Bachelor of Science (Information Technology)",
+      degree: "Bachelor of Science in Information Technology (B.Sc IT)",
       institute: "",
       university: "University of Mumbai",
       year: "",

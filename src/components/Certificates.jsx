@@ -90,8 +90,7 @@ mx-auto
 
 >
 
-Professional certifications, internships and technical achievements
-earned throughout my learning journey.
+Professional certifications, internship achievements and technical learning that reflect my continuous growth as a frontend developer.
 
 </p>
 
@@ -137,11 +136,12 @@ delay:index*0.08
 }}
 
 whileHover={{
-y:-8,
-scale:1.02
+  y: -6,
+  scale: 1.01,
 }}
 
-className="
+className={`
+relative
 rounded-3xl
 
 bg-white/80
@@ -149,19 +149,36 @@ dark:bg-slate-900/80
 
 backdrop-blur-xl
 
-border
-border-slate-200
-dark:border-slate-800
-
-shadow-xl
+${
+certificate.badge === "Internship"
+  ? "border-2 border-emerald-500 shadow-2xl shadow-emerald-500/20 ring-2 ring-emerald-500/20"
+    : "border border-slate-200 dark:border-slate-800 shadow-xl"
+}
 
 p-7
 
 transition-all
 duration-300
-"
-
+`}
 >
+
+
+{certificate.badge && (
+  <div className="absolute top-5 right-5">
+    <span
+      className={`
+        px-3 py-1 rounded-full text-xs font-semibold
+        ${
+          certificate.badge === "Internship"
+            ? "bg-emerald-100 dark:bg-emerald-500/10 text-emerald-600 dark:text-emerald-400"
+            : "bg-blue-100 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400"
+        }
+      `}
+    >
+      {certificate.badge === "Internship" ? "💼 Internship" : "🏅 Certified"}
+    </span>
+  </div>
+)}
 
 <div
 
@@ -315,7 +332,7 @@ hover:underline
 
 >
 
-View Certificate
+View Certificate →
 
 <ExternalLink size={17}/>
 

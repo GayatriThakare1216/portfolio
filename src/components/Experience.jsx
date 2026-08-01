@@ -8,7 +8,7 @@ const experience = [
     company: "SMART ACCESS",
     duration: "Feb 2026 - Jun 2026",
     description:
-      "Worked on responsive web applications using React.js, JavaScript and Tailwind CSS. Developed reusable components, improved UI layouts and implemented modern frontend practices.",
+      "Developed responsive web applications using React.js, JavaScript and Tailwind CSS. Built reusable UI components, optimized layouts, collaborated on frontend features and followed modern development practices.",
   },
 
   {
@@ -16,7 +16,7 @@ const experience = [
     company: "Personal Projects",
     duration: "2025 - Present",
     description:
-      "Building full-stack applications including Appointment Booking SaaS and AI-powered E-commerce platforms using React, Next.js, Node.js, Express, PostgreSQL and MongoDB.",
+      "Built real-world full-stack applications including an Appointment Booking SaaS platform, modern E-Commerce application and Expense Management system using React.js, Next.js, Node.js, Express.js, PostgreSQL and MongoDB.",
   },
 
   {
@@ -24,7 +24,7 @@ const experience = [
     company: "Self Learning",
     duration: "2024 - Present",
     description:
-      "Learning and improving frontend development skills by building real-world projects, practicing responsive design and exploring modern React ecosystem.",
+     "Continuously improving frontend development skills by building real-world projects, learning modern React ecosystem, responsive design and best coding practices.",
   },
 ];
 
@@ -52,6 +52,23 @@ const experience = [
           subtitle="My Journey"
           title="Experience"
         />
+
+        <p
+  className="
+    text-center
+    max-w-3xl
+    mx-auto
+    mt-4
+    mb-14
+    text-slate-600
+    dark:text-slate-400
+    leading-7
+  "
+>
+  My professional journey includes internship experience, full-stack personal
+  projects and continuous learning through modern frontend technologies and
+  real-world application development.
+</p>
 
         {/* Timeline */}
 
@@ -85,6 +102,8 @@ const experience = [
                 shadow-lg
                 hover:border-blue-500
                 hover:shadow-xl
+hover:ring-2
+hover:ring-blue-500/20
                 transition-all
                 duration-300"
               >

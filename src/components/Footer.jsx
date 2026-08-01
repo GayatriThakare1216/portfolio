@@ -20,26 +20,13 @@ function Footer() {
 
 
 const links = [
-  {
-    name:"Home",
-    to:"home"
-  },
-  {
-    name:"About",
-    to:"about"
-  },
-  {
-    name:"Skills",
-    to:"skills"
-  },
-  {
-    name:"Projects",
-    to:"projects"
-  },
-  {
-    name:"Contact",
-    to:"contact"
-  }
+  { name: "Home", to: "home" },
+  { name: "About", to: "about" },
+  { name: "Skills", to: "skills" },
+  { name: "Experience", to: "experience" },
+  { name: "Projects", to: "projects" },
+  { name: "Certificates", to: "certificates" },
+  { name: "Contact", to: "contact" },
 ];
 
 
@@ -129,9 +116,7 @@ dark:text-slate-400
 "
 >
 
-Frontend Developer passionate about building modern,
-responsive and user-friendly web applications.
-
+Frontend Developer specializing in React.js, Next.js and modern frontend technologies. Passionate about building fast, responsive and user-friendly web applications.
 </p>
 
 
@@ -222,6 +207,39 @@ duration-300
 
 </div>
 
+
+<div className="mt-8">
+
+<p className="text-sm text-slate-500 dark:text-slate-400 mb-3">
+Interested in my profile?
+</p>
+
+<a
+  href={personalInfo.resume}
+  target="_blank"
+  rel="noreferrer"
+  className="
+  inline-flex
+  items-center
+  gap-3
+  px-6
+  py-3
+  rounded-2xl
+  bg-gradient-to-r
+  from-blue-600
+  to-cyan-500
+  text-white
+  font-semibold
+  hover:scale-105
+  transition-all
+  duration-300
+  shadow-xl
+  "
+>
+  📄 Download Resume
+</a>
+
+</div>
 
 </div>
 
@@ -361,6 +379,10 @@ text-sm
 text-slate-700
 dark:text-slate-300
 hover:border-blue-500
+hover:-translate-y-1
+hover:shadow-lg
+transition-all
+duration-300
 transition
 "
 
@@ -424,7 +446,7 @@ dark:text-slate-400
 <br/>
 
 <span>
-Built with React + Tailwind CSS 🚀
+Designed & Developed using React, Tailwind CSS and modern frontend technologies.
 </span>
 
 

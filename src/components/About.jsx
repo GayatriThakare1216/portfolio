@@ -24,7 +24,7 @@ const stats = [
     title:"Projects"
   },
   {
-    number:"1+",
+    number:"1",
     title:"Internship"
   },
   {
@@ -32,8 +32,8 @@ const stats = [
     title:"Technologies"
   },
   {
-    number:"100%",
-    title:"Responsive"
+    number:"2026",
+    title:"MCA Graduate"
   }
 ];
 
@@ -105,7 +105,8 @@ title="About Me"
 className="flex justify-center"
 
 whileHover={{
-scale:1.05
+  scale:1.03,
+  rotate:1
 }}
 
 >
@@ -135,10 +136,10 @@ w-80
 h-80
 rounded-3xl
 overflow-hidden
-border-4
+border-[5px]
 border-white
 dark:border-blue-500
-shadow-2xl
+shadow-[0_20px_60px_rgba(37,99,235,0.25)]
 "
 
 >
@@ -213,6 +214,10 @@ mb-5
 
 </h3>
 
+<p className="text-blue-600 dark:text-blue-400 font-semibold mb-6">
+  React.js • Next.js • JavaScript • Tailwind CSS
+</p>
+
 
 
 
@@ -233,7 +238,22 @@ dark:text-slate-300
 </p>
 
 
-
+<div className="flex flex-wrap gap-3 mb-8">
+  {[
+    "Responsive UI",
+    "Reusable Components",
+    "REST API Integration",
+    "Clean Code",
+    "Modern React",
+  ].map((item) => (
+    <span
+      key={item}
+      className="px-4 py-2 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-500/10 dark:text-blue-300 text-sm font-medium"
+    >
+      {item}
+    </span>
+  ))}
+</div>
 
 
 {/* STATS */}
@@ -378,7 +398,7 @@ gap-4
 <FaGraduationCap className="text-blue-500"/>
 
 <span>
-MCA - University of Mumbai
+MCA • University of Mumbai
 </span>
 
 </div>
@@ -394,7 +414,7 @@ sm:col-span-2
 <FaBriefcase className="text-blue-500"/>
 
 <span>
-Frontend Developer Intern - Smart Access
+Frontend Developer Intern • Smart Access
 </span>
 
 

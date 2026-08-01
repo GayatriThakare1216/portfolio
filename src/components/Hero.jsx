@@ -13,16 +13,18 @@ function Hero() {
   return (
     <>
       <Helmet>
-        <title>Gayatri Thakare | Frontend Developer</title>
+       <title>
+            Gayatri Thakare | Frontend Developer | React.js & Next.js Developer
+       </title>
 
         <meta
           name="description"
-          content="Frontend Developer specializing in React.js, Next.js, JavaScript and Tailwind CSS."
+         content="Gayatri Thakare is a Frontend Developer specializing in React.js, Next.js, JavaScript, Tailwind CSS, responsive web applications and modern UI development."
         />
 
         <meta
           name="keywords"
-          content="Frontend Developer, React Developer, Next.js, JavaScript, Tailwind CSS, Portfolio"
+          content="Frontend Developer, React.js Developer, Next.js Developer, JavaScript, Tailwind CSS, React, Responsive Web Design, Web Developer Portfolio, Node.js, PostgreSQL"
         />
 
         <meta
@@ -48,7 +50,7 @@ function Hero() {
 
 <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-500/20 blur-[150px] rounded-full pointer-events-none z-[1]"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto w-full px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 items-center">
+        <div className="relative z-10 max-w-[1400px] mx-auto w-full px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 items-center">
 
           {/* Left */}
 
@@ -68,14 +70,14 @@ function Hero() {
               bg-blue-100 text-blue-700 border border-blue-300
               dark:bg-blue-500/10 dark:text-blue-400 dark:border-blue-500/40"
             >
-              🚀 Available for Frontend Opportunities
+              🟢 Available for Frontend Developer Roles
             </span>
 
             <p className="text-blue-600 dark:text-blue-400 text-lg font-medium">
               Hello, I'm
             </p>
 
-            <h1 className="text-5xl md:text-7xl font-bold mt-3 leading-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mt-3 leading-tight">
               {personalInfo.name}
             </h1>
 
@@ -89,7 +91,7 @@ function Hero() {
                   2000,
                   "Next.js Developer",
                   2000,
-                  "UI Developer",
+                   "JavaScript Developer",
                   2000,
                 ]}
                 wrapper="span"
@@ -116,7 +118,10 @@ dark:text-slate-300"
               <div
                 className="
                 p-5 rounded-2xl text-center
-                bg-white shadow-md border
+                bg-white shadow-md border  hover:-translate-y-2
+                 hover:shadow-xl
+                  transition-all
+                   duration-300
                 dark:bg-slate-900 dark:border-slate-800"
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
@@ -131,11 +136,14 @@ dark:text-slate-300"
               <div
                 className="
                 p-5 rounded-2xl text-center
-                bg-white shadow-md border
+                bg-white shadow-md border hover:-translate-y-2
+                 hover:shadow-xl
+                  transition-all
+                   duration-300
                 dark:bg-slate-900 dark:border-slate-800"
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-                  1+
+                  1
                 </h3>
 
                 <p className="text-slate-500 dark:text-slate-400 text-sm">
@@ -146,15 +154,18 @@ dark:text-slate-300"
               <div
                 className="
                 p-5 rounded-2xl text-center
-                bg-white shadow-md border
+                bg-white shadow-md border hover:-translate-y-2
+                 hover:shadow-xl
+                  transition-all
+                   duration-300
                 dark:bg-slate-900 dark:border-slate-800"
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-                  100%
+                  10+
                 </h3>
 
                 <p className="text-slate-500 dark:text-slate-400 text-sm">
-                  Responsive
+                  Technologies
                 </p>
               </div>
 
@@ -162,7 +173,7 @@ dark:text-slate-300"
 
             {/* Buttons */}
 
-            <div className="flex flex-wrap gap-5 mt-10">
+            <div className="flex flex-wrap gap-4 mt-10">
 
               <Link
                 to="contact"
@@ -171,7 +182,7 @@ dark:text-slate-300"
                 offset={-70}
               >
                 <Button>
-                  Hire Me
+                  Let's Connect
                 </Button>
               </Link>
 
@@ -220,13 +231,15 @@ className="flex justify-center lg:justify-end"
                 border-4 border-white
                 dark:border-blue-500
                 shadow-[0_20px_60px_rgba(37,99,235,0.30)]
-                hover:scale-105
-                transition duration-500"
+                hover:scale-[1.03]
+                transition-all duration-500 ease-out"
               >
 
                 <img
                   src={profile}
                   alt={personalInfo.name}
+                  loading="eager"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
 
@@ -248,7 +261,7 @@ className="flex justify-center lg:justify-end"
             duration={500}
             className="cursor-pointer animate-bounce text-slate-500 dark:text-slate-400"
           >
-            ↓ Scroll Down
+            Explore More ↓
           </Link>
 
         </div>

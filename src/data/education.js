@@ -2,7 +2,7 @@ const education = [
   {
     degree: "Master of Computer Applications (MCA)",
     institute: "NCRD's Sterling Institute of Management Studies, University of Mumbai",
-    score: "CGPA 7.58065",
+    score: "CGPA 7.58",
     year: "2024 - 2026",
   },
 

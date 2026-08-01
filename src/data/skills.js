@@ -19,10 +19,12 @@ import {
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
+import { Bot, Sparkles, Brain } from "lucide-react";
 
 const skills = [
   {
     category: "Frontend Development",
+    description: "Building responsive and interactive user interfaces.",
     items: [
       {
         name: "HTML5",
@@ -59,6 +61,7 @@ const skills = [
 
   {
     category: "Backend",
+    description: "Developing secure REST APIs and server-side applications.",
     items: [
       {
         name: "Node.js",
@@ -75,6 +78,7 @@ const skills = [
 
   {
     category: "Database",
+    description: "Managing relational and NoSQL databases.",
     items: [
       {
         name: "MongoDB",
@@ -91,6 +95,7 @@ const skills = [
 
   {
     category: "Tools",
+    description: "Version control, deployment and development tools.",
     items: [
       {
         name: "Git",
@@ -107,18 +112,41 @@ const skills = [
         icon: VscVscode,
         level: 95,
       },
-      {
-        name: "Figma",
-        icon: FaFigma,
-        level: 70,
-      },
+      
       {
         name: "Vercel",
         icon: SiVercel,
         level: 80,
       },
+      {
+        name: "Figma",
+        icon: FaFigma,
+        level: 70,
+      },
     ],
   },
+
+
+{
+  category: "AI Tools",
+  items: [
+    {
+      name: "ChatGPT",
+      icon: Bot,
+      level: 95,
+    },
+    {
+      name: "Google Gemini",
+      icon: Sparkles,
+      level: 90,
+    },
+    {
+      name: "AI Assisted Development",
+      icon: Brain,
+      level: 92,
+    },
+  ],
+},
 ];
 
 export default skills;

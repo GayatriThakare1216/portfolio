@@ -14,13 +14,15 @@ function ProjectModal({ project, closeModal }) {
   return (
 
 <div
-  className="
-  fixed inset-0 z-[999]
-  bg-black/70 backdrop-blur-sm
-  flex items-start justify-center
-  px-6 py-10
-  overflow-y-auto
-  "
+onClick={closeModal}
+className="
+fixed inset-0 z-[999]
+bg-black/70
+backdrop-blur-sm
+flex items-start justify-center
+px-6 py-10
+overflow-y-auto
+"
 >
 
 
@@ -112,6 +114,16 @@ mb-6
 
         </h2>
 
+        <div className="flex flex-wrap gap-3 mt-3">
+  <span className="px-4 py-1 rounded-full bg-blue-100 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 text-sm font-medium">
+    {project.type}
+  </span>
+
+  <span className="px-4 py-1 rounded-full bg-emerald-100 dark:bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-sm font-medium">
+    {project.category}
+  </span>
+</div>
+
 
 
         {/* Description */}
@@ -137,7 +149,7 @@ mb-6
         <div className="mt-6">
 
           <h3 className="text-xl font-semibold text-blue-500">
-            Project Overview
+            🚀 Project Overview
           </h3>
 
           <p className="mt-2 text-slate-600 dark:text-slate-300 leading-7">
@@ -154,7 +166,7 @@ mb-6
         <div className="mt-6">
 
           <h3 className="text-xl font-semibold text-blue-500">
-            Key Features
+            ✨ Key Features
           </h3>
 
 
@@ -190,7 +202,7 @@ mb-6
         {/* Extra Details */}
 
 
-        <div className="grid md:grid-cols-2 gap-5 mt-6">
+        <div className="grid md:grid-cols-3 gap-5 mt-6">
 
 
           <div
@@ -235,6 +247,24 @@ mb-6
           </div>
 
 
+          <div
+  className="
+  bg-slate-100
+  dark:bg-slate-800
+  p-4
+  rounded-xl
+  "
+>
+  <h4 className="font-semibold text-blue-500">
+    Project Type
+  </h4>
+
+  <p className="mt-2 text-sm">
+    {project.type}
+  </p>
+</div>
+
+
         </div>
 
 
@@ -246,7 +276,7 @@ mb-6
         <div className="mt-6">
 
           <h3 className="text-xl font-semibold text-blue-500">
-            Challenges
+           🛠 Challenges
           </h3>
 
 
@@ -265,7 +295,7 @@ mb-6
         {/* Technologies */}
 
         <h3 className="text-xl font-semibold mt-6 text-blue-500">
-          Technologies
+          💻 Technologies
         </h3>
 
 
@@ -277,15 +307,21 @@ mb-6
 
             <span
             key={item}
-            className="
-            bg-blue-500/10
-            border
-            border-blue-500
-            px-4
-            py-1
-            rounded-full
-            text-sm
-            "
+className="
+bg-blue-500/10
+border
+border-blue-500
+px-4
+py-2
+rounded-full
+text-sm
+font-medium
+transition-all
+duration-300
+hover:bg-blue-600
+hover:text-white
+hover:border-blue-600
+"
             >
 
               {item}
@@ -305,7 +341,7 @@ mb-6
         {/* Buttons */}
 
 
-        <div className="flex gap-4 mt-8 flex-wrap">
+        <div className="flex gap-4 mt-8">
 
 
           <a
@@ -314,15 +350,20 @@ mb-6
           target="_blank"
           rel="noreferrer"
 
-          className="
-          flex items-center gap-2
-          bg-blue-600
-          text-white
-          px-6
-          py-3
-          rounded-xl
-          hover:bg-blue-700
-          "
+className="
+flex-1
+flex
+justify-center
+items-center
+gap-2
+bg-blue-600
+text-white
+px-6
+py-3
+rounded-xl
+hover:bg-blue-700
+transition
+"
           >
 
             <FaGithub/>
@@ -334,13 +375,18 @@ mb-6
 
 
 
-<a
-href={project.live}
-target="_blank"
-rel="noreferrer"
-
+{project.live && project.live !== "#" && (
+  <a
+    onClick={(e) => e.stopPropagation()}
+    href={project.live}
+    target="_blank"
+    rel="noreferrer"
 className="
-flex items-center gap-2
+flex-1
+flex
+justify-center
+items-center
+gap-2
 border
 border-blue-500
 px-6
@@ -350,13 +396,11 @@ hover:bg-blue-600
 hover:text-white
 transition
 "
->
-
-<FaExternalLinkAlt/>
-
-Live Demo
-
-</a>
+  >
+    <FaExternalLinkAlt />
+    Live Demo
+  </a>
+)}
 
 
         </div>

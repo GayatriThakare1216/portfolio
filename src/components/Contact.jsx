@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import { FaFileAlt } from "react-icons/fa";
 
 import SectionTitle from "./SectionTitle";
 import toast from "react-hot-toast";
@@ -82,6 +83,25 @@ function Contact() {
           >
 
             <div>
+              <span
+  className="
+  inline-flex
+  items-center
+  gap-2
+  px-4
+  py-2
+  rounded-full
+  bg-green-100
+  dark:bg-green-500/10
+  text-green-700
+  dark:text-green-400
+  text-sm
+  font-medium
+  mb-5
+  "
+>
+🟢 Available for Frontend Developer Roles
+</span>
 
               <h3 className="text-4xl font-bold mb-4">
                 Let's Work Together 🚀
@@ -108,9 +128,12 @@ function Contact() {
                 shadow-md"
               >
                 <FaEnvelope className="text-blue-600 dark:text-blue-400 text-xl" />
-                <span className="text-slate-700 dark:text-slate-200">
-                  {personalInfo.email}
-                </span>
+<a
+  href={`mailto:${personalInfo.email}`}
+  className="text-slate-700 dark:text-slate-200 hover:text-blue-600 transition"
+>
+  {personalInfo.email}
+</a>
               </div>
 
               <div
@@ -172,6 +195,27 @@ function Contact() {
               >
                 <FaLinkedin />
               </a>
+
+              <a
+  href={personalInfo.resume}
+  target="_blank"
+  rel="noreferrer"
+  className="
+  w-12 h-12
+  flex items-center justify-center
+  rounded-full
+  bg-white
+  dark:bg-slate-900
+  border border-slate-200
+  dark:border-slate-700
+  hover:bg-blue-600
+  hover:text-white
+  transition-all
+  duration-300
+  "
+>
+  <FaFileAlt />
+</a>
 
             </div>
 
@@ -239,7 +283,7 @@ function Contact() {
               name="message"
               rows="6"
               required
-              placeholder="Your Message"
+              placeholder="Tell me about your project or opportunity..."
               className="
               w-full
               p-4

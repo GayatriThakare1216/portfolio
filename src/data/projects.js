@@ -6,12 +6,14 @@ id:1,
 
 title:"AppointmentHub SaaS",
 
+badge: "Featured",
+
 type:"Full Stack",
 
 category:"SaaS Application",
 
 description:
-"A full-stack appointment booking platform that helps businesses manage appointments, customers and schedules through a modern dashboard.",
+"A full-stack SaaS appointment booking platform that enables businesses to manage appointments, customers, services and schedules through a responsive dashboard.",
 
 
 overview:
@@ -25,16 +27,18 @@ features:[
 "Appointment management",
 "Staff and service management",
 "Analytics dashboard",
+"Role-based authentication",
+"Responsive dashboard",
 "PostgreSQL database"
 ],
 
 
 challenges:
-"Designed complete application architecture, managed dashboard workflows, integrated backend services and created responsive layouts.",
+"Designed the complete application workflow, integrated Django backend APIs, managed PostgreSQL database interactions and built reusable frontend components.",
 
 
 role:
-"Full Stack Developer - Built frontend UI, implemented Django backend integration and designed reusable components.",
+"Full Stack Developer - Designed and developed the frontend UI, integrated Django backend APIs, managed PostgreSQL database connectivity and built reusable, responsive components.",
 
 
 duration:
@@ -70,13 +74,15 @@ id:2,
 
 title:"Nexora - Modern E-Commerce",
 
+badge: "Popular",
+
 type:"Frontend",
 
 category:"E-Commerce Platform",
 
 
 description:
-"A premium modern e-commerce platform with shopping features, authentication, wishlist, cart and admin dashboard.",
+"A modern e-commerce platform featuring authentication, wishlist, shopping cart, product comparison, admin dashboard and a responsive user experience.",
 
 
 overview:
@@ -91,16 +97,18 @@ features:[
 "Product comparison",
 "Authentication",
 "Admin dashboard",
-"Dark mode"
+"Dark mode",
+"Responsive UI",
+"Search & filtering"
 ],
 
 
 challenges:
-"Created reusable React components, implemented state management and optimized responsive user experience.",
+"Built reusable React components, managed global state using Zustand, optimized responsive layouts and improved overall frontend performance.",
 
 
 role:
-"Frontend Developer - Designed complete frontend architecture using React and Tailwind CSS.",
+"Frontend Developer - Designed and developed the complete frontend architecture, built reusable React components, implemented Zustand state management and created a fully responsive user interface.",
 
 
 duration:
@@ -138,13 +146,15 @@ id:3,
 
 title:"ExpenseTrack",
 
+badge: "Latest",
+
 type:"Frontend",
 
 category:"Finance Management Application",
 
 
 description:
-"A modern expense management application to track income, expenses and financial activities through an interactive dashboard.",
+"A personal finance management application that helps users track income, expenses, budgets and financial insights through an interactive dashboard.",
 
 
 overview:
@@ -157,16 +167,18 @@ features:[
 "Dashboard analytics",
 "Category based expenses",
 "Responsive UI",
-"Interactive charts"
+"Interactive charts",
+"Budget management",
+"Transaction history"
 ],
 
 
 challenges:
-"Built dashboard components, managed application state and created a clean finance-focused user experience.",
+"Designed an interactive finance dashboard, managed application state and implemented responsive charts with reusable UI components.",
 
 
 role:
-"Frontend Developer - Developed UI components and implemented frontend architecture.",
+"Frontend Developer - Built reusable UI components, implemented application state management and designed a responsive finance dashboard.",
 
 
 duration:
@@ -202,13 +214,15 @@ id:4,
 
 title:"Developer Portfolio",
 
+badge: "Personal",
+
 type:"Frontend",
 
 category:"Personal Website",
 
 
 description:
-"A modern developer portfolio website showcasing projects, skills, experience and frontend development work.",
+"A responsive developer portfolio showcasing projects, technical skills, certifications and professional experience with modern UI and animations.",
 
 
 overview:
@@ -218,10 +232,12 @@ overview:
 features:[
 "Project showcase",
 "Responsive design",
-"Modern animations",
+
 "Contact section",
 "Dark mode",
-"Professional UI"
+"Professional UI",
+"SEO optimization",
+"Framer Motion animations"
 ],
 
 
@@ -230,7 +246,7 @@ challenges:
 
 
 role:
-"Frontend Developer - Designed and developed complete portfolio experience.",
+"Frontend Developer - Designed and developed a modern portfolio showcasing projects, technical skills and professional experience with responsive layouts and smooth animations.",
 
 
 duration:

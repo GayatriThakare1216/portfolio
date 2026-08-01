@@ -14,7 +14,9 @@ function ProjectCard({ project, openModal }) {
       rounded-3xl
       overflow-hidden
       shadow-lg
-      hover:border-blue-500
+    hover:border-blue-500
+hover:bg-blue-50
+dark:hover:bg-blue-500/10
       hover:-translate-y-4
       hover:shadow-2xl
       hover:shadow-blue-500/20
@@ -72,6 +74,26 @@ transition
           {project.category}
         </span>
 
+{project.badge && (
+  <span
+    className="
+    absolute
+    top-16
+    left-4
+    bg-emerald-600
+    text-white
+    px-3
+    py-1
+    rounded-full
+    text-xs
+    font-semibold
+    shadow-lg
+    "
+  >
+    ⭐ {project.badge}
+  </span>
+)}
+
       </div>
 
       {/* Content */}
@@ -81,6 +103,10 @@ transition
         <h3 className="text-2xl font-bold mb-3 text-slate-900 dark:text-white">
           {project.title}
         </h3>
+
+        <p className="text-sm text-blue-600 dark:text-blue-400 font-medium mb-3">
+         {project.type}
+        </p>
 
         <p className="leading-7 text-slate-600 dark:text-slate-300">
           {project.description}
@@ -104,6 +130,8 @@ transition
               rounded-full
               text-sm
               hover:border-blue-500
+hover:ring-2
+hover:ring-blue-500/20
               transition"
             >
               {tech}
@@ -114,15 +142,19 @@ transition
 
         {/* Buttons */}
 
-        <div className="flex gap-4 mt-8 flex-wrap">
+        <div className="flex gap-4 mt-8">
 
           <a
            onClick={(e)=>e.stopPropagation()}
             href={project.github}
             target="_blank"
             rel="noreferrer"
-            className="
-            flex items-center gap-2
+className="
+flex-1
+flex
+justify-center
+items-center
+gap-2
             bg-blue-600
             hover:bg-blue-700
             text-white
@@ -140,8 +172,12 @@ transition
               href={project.live}
               target="_blank"
               rel="noreferrer"
-              className="
-              flex items-center gap-2
+className="
+flex-1
+flex
+justify-center
+items-center
+gap-2
               border-2 border-blue-600
               bg-white
               text-blue-600

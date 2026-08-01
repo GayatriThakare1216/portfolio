@@ -56,6 +56,56 @@ text-sm
 🚀 Modern UI Development
 </span>
 
+<span
+  className="
+  px-4 py-2
+  rounded-full
+  bg-blue-100
+  dark:bg-blue-500/10
+  text-blue-600
+  dark:text-blue-400
+  text-sm
+  "
+>
+🤖 AI Assisted Development
+</span>
+
+<span className="
+px-4 py-2
+rounded-full
+bg-blue-100
+dark:bg-blue-500/10
+text-blue-600
+dark:text-blue-400
+text-sm
+">
+🔗 REST API Integration
+</span>
+
+<span className="
+px-4 py-2
+rounded-full
+bg-blue-100
+dark:bg-blue-500/10
+text-blue-600
+dark:text-blue-400
+text-sm
+">
+📱 Responsive Design
+</span>
+
+<span className="
+px-4 py-2
+rounded-full
+bg-blue-100
+dark:bg-blue-500/10
+text-blue-600
+dark:text-blue-400
+text-sm
+">
+🧩 Component-Based Architecture
+</span>
+
 </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -64,7 +114,10 @@ text-sm
 
             <motion.div
               key={category.category}
-              whileHover={{ y: -8 }}
+              whileHover={{
+                 y: -6,
+                 scale: 1.01,
+                }}
               transition={{ duration: 0.3 }}
               className="
               bg-white
@@ -89,7 +142,7 @@ text-slate-500
 dark:text-slate-400
 mb-6
 ">
-Tools and technologies I use to build modern applications.
+{category.description}
 </p>
 
               <div className="space-y-5">
@@ -124,7 +177,7 @@ duration-300
                         <div className="flex items-center gap-3">
 
 <Icon
- size={30}
+ size={32}
  className="
  text-blue-600
  dark:text-blue-400
@@ -140,9 +193,9 @@ duration-300
 
                         </div>
 
-                        <span className="font-semibold text-blue-600 dark:text-blue-400">
-                          {skill.level}%
-                        </span>
+<span className="text-xs px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 font-medium">
+  Experienced
+</span>
 
                       </div>
 
