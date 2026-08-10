@@ -5,8 +5,8 @@ const personalInfo = {
 
   resume: "/resume/Gayatri_Thakare_Resume.pdf",
 
-  heroDescription:
-  "I build fast, responsive and scalable web applications using React.js, Next.js, JavaScript and Tailwind CSS. Passionate about creating clean user interfaces, reusable components and seamless user experiences.",
+heroDescription:
+  "I build fast, responsive and scalable web applications using React.js, JavaScript and Tailwind CSS. Passionate about creating clean user interfaces, reusable components and seamless user experiences.",
 
   roles: [
     "Frontend Developer",

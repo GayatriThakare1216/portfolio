@@ -8,23 +8,22 @@ import Button from "./Button";
 import personalInfo from "../data/personalInfo";
 import profile from "../assets/images/profile.png";
 
-
 function Hero() {
   return (
     <>
       <Helmet>
-       <title>
-            Gayatri Thakare | Frontend Developer | React.js & Next.js Developer
-       </title>
+        <title>
+          Gayatri Thakare | Frontend Developer | React.js & JavaScript Developer
+        </title>
 
         <meta
           name="description"
-         content="Gayatri Thakare is a Frontend Developer specializing in React.js, Next.js, JavaScript, Tailwind CSS, responsive web applications and modern UI development."
+          content="Gayatri Thakare is a Frontend Developer specializing in React.js, JavaScript, Tailwind CSS, responsive web applications and modern UI development."
         />
 
         <meta
           name="keywords"
-          content="Frontend Developer, React.js Developer, Next.js Developer, JavaScript, Tailwind CSS, React, Responsive Web Design, Web Developer Portfolio, Node.js, PostgreSQL"
+          content="Frontend Developer, React.js Developer, JavaScript Developer, Tailwind CSS, React, Responsive Web Design, Web Developer Portfolio, Zustand, React Query"
         />
 
         <meta
@@ -35,27 +34,43 @@ function Hero() {
 
       <section
         id="home"
-        className="relative overflow-hidden min-h-screen flex items-center pt-16 md:pt-20
-        bg-gradient-to-br from-white via-slate-50 to-blue-50
-        dark:from-slate-950 dark:via-slate-900 dark:to-black
-        text-slate-900 dark:text-white transition-colors duration-500"
+        className="
+          relative overflow-hidden min-h-screen flex items-center
+          pt-16 md:pt-20
+          bg-gradient-to-br from-white via-slate-50 to-blue-50
+          dark:from-slate-950 dark:via-slate-900 dark:to-black
+          text-slate-900 dark:text-white
+          transition-colors duration-500
+        "
       >
-
-        
-
 
         {/* Background Glow */}
 
-<div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/20 blur-[120px] rounded-full pointer-events-none z-[1]"></div>
+        <div
+          className="
+            absolute top-20 right-10
+            w-72 h-72
+            bg-blue-500/20
+            rounded-full
+            blur-3xl
+            pointer-events-none
+          "
+        />
 
-<div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-500/20 blur-[150px] rounded-full pointer-events-none z-[1]"></div>
-
-        <div className="relative z-10 max-w-[1400px] mx-auto w-full px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 items-center">
+        <div
+          className="
+            relative z-10
+            max-w-[1400px] mx-auto w-full
+            px-6 lg:px-8
+            grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr]
+            gap-8 items-center
+          "
+        >
 
           {/* Left */}
 
           <motion.div
-             className="w-full max-w-2xl"
+            className="w-full max-w-2xl"
             initial={{ opacity: 0, x: -80 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -65,10 +80,15 @@ function Hero() {
 
             <span
               className="
-              inline-flex items-center gap-2
-              px-5 py-2 rounded-full text-sm font-medium mb-6
-              bg-blue-100 text-blue-700 border border-blue-300
-              dark:bg-blue-500/10 dark:text-blue-400 dark:border-blue-500/40"
+                inline-flex items-center gap-2
+                px-5 py-2 rounded-full
+                text-sm font-medium mb-6
+                bg-blue-100 text-blue-700
+                border border-blue-300
+                dark:bg-blue-500/10
+                dark:text-blue-400
+                dark:border-blue-500/40
+              "
             >
               🟢 Available for Frontend Developer Roles
             </span>
@@ -81,6 +101,8 @@ function Hero() {
               {personalInfo.name}
             </h1>
 
+            {/* Developer Role */}
+
             <h2 className="text-3xl mt-5 font-semibold text-blue-600 dark:text-blue-400">
 
               <TypeAnimation
@@ -89,9 +111,7 @@ function Hero() {
                   2000,
                   "React.js Developer",
                   2000,
-                  "Next.js Developer",
-                  2000,
-                   "JavaScript Developer",
+                  "JavaScript Developer",
                   2000,
                 ]}
                 wrapper="span"
@@ -101,12 +121,17 @@ function Hero() {
 
             </h2>
 
+            {/* Description */}
+
             <p
-className="
-mt-6 leading-8 text-lg
-max-w-2xl
-text-slate-600
-dark:text-slate-300"
+              className="
+                mt-6
+                leading-8
+                text-lg
+                max-w-2xl
+                text-slate-600
+                dark:text-slate-300
+              "
             >
               {personalInfo.heroDescription}
             </p>
@@ -115,14 +140,18 @@ dark:text-slate-300"
 
             <div className="grid grid-cols-3 gap-5 mt-12 w-full max-w-lg">
 
+              {/* Projects */}
+
               <div
                 className="
-                p-5 rounded-2xl text-center
-                bg-white shadow-md border  hover:-translate-y-2
-                 hover:shadow-xl
-                  transition-all
-                   duration-300
-                dark:bg-slate-900 dark:border-slate-800"
+                  p-5 rounded-2xl text-center
+                  bg-white shadow-md border
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  transition-all duration-300
+                  dark:bg-slate-900
+                  dark:border-slate-800
+                "
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   4+
@@ -133,14 +162,18 @@ dark:text-slate-300"
                 </p>
               </div>
 
+              {/* Internship */}
+
               <div
                 className="
-                p-5 rounded-2xl text-center
-                bg-white shadow-md border hover:-translate-y-2
-                 hover:shadow-xl
-                  transition-all
-                   duration-300
-                dark:bg-slate-900 dark:border-slate-800"
+                  p-5 rounded-2xl text-center
+                  bg-white shadow-md border
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  transition-all duration-300
+                  dark:bg-slate-900
+                  dark:border-slate-800
+                "
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   1
@@ -151,14 +184,18 @@ dark:text-slate-300"
                 </p>
               </div>
 
+              {/* Technologies */}
+
               <div
                 className="
-                p-5 rounded-2xl text-center
-                bg-white shadow-md border hover:-translate-y-2
-                 hover:shadow-xl
-                  transition-all
-                   duration-300
-                dark:bg-slate-900 dark:border-slate-800"
+                  p-5 rounded-2xl text-center
+                  bg-white shadow-md border
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  transition-all duration-300
+                  dark:bg-slate-900
+                  dark:border-slate-800
+                "
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
                   10+
@@ -189,14 +226,26 @@ dark:text-slate-300"
               <Button
                 variant="outline"
                 href={personalInfo.resume}
-                 className="border-2 border-blue-600 text-blue-600 bg-white hover:bg-blue-600 hover:text-white dark:bg-transparent dark:border-blue-500 dark:text-blue-400 dark:hover:bg-blue-500 dark:hover:text-white"
+                className="
+                  border-2
+                  border-blue-600
+                  text-blue-600
+                  bg-white
+                  hover:bg-blue-600
+                  hover:text-white
+                  dark:bg-transparent
+                  dark:border-blue-500
+                  dark:text-blue-400
+                  dark:hover:bg-blue-500
+                  dark:hover:text-white
+                "
               >
                 Download Resume
               </Button>
 
             </div>
 
-            {/* Social */}
+            {/* Social Links */}
 
             <div className="mt-10">
               <SocialLinks />
@@ -204,10 +253,10 @@ dark:text-slate-300"
 
           </motion.div>
 
-          {/* Right */}
+          {/* Right - Profile */}
 
-<motion.div
-className="flex justify-center lg:justify-end"
+          <motion.div
+            className="flex justify-center lg:justify-end"
             animate={{
               y: [0, -15, 0],
             }}
@@ -220,24 +269,38 @@ className="flex justify-center lg:justify-end"
 
             <div className="relative">
 
-              <div className="absolute inset-0 rounded-full bg-blue-500 blur-[100px] opacity-40"></div>
+              {/* Glow */}
 
               <div
                 className="
-                relative
-                w-80 h-80 md:w-96 md:h-96
-                rounded-full
-                overflow-hidden
-                border-4 border-white
-                dark:border-blue-500
-                shadow-[0_20px_60px_rgba(37,99,235,0.30)]
-                hover:scale-[1.03]
-                transition-all duration-500 ease-out"
+                  absolute inset-0
+                  rounded-full
+                  bg-blue-500
+                  blur-[100px]
+                  opacity-40
+                "
+              />
+
+              {/* Profile Image */}
+
+              <div
+                className="
+                  relative
+                  w-80 h-80
+                  md:w-96 md:h-96
+                  rounded-full
+                  overflow-hidden
+                  border-4 border-white
+                  dark:border-blue-500
+                  shadow-[0_20px_60px_rgba(37,99,235,0.30)]
+                  hover:scale-[1.03]
+                  transition-all duration-500 ease-out
+                "
               >
 
                 <img
                   src={profile}
-                  alt={personalInfo.name}
+                  alt="Gayatri Thakare - Frontend Developer"
                   loading="eager"
                   decoding="async"
                   className="w-full h-full object-cover"
@@ -253,13 +316,25 @@ className="flex justify-center lg:justify-end"
 
         {/* Scroll */}
 
-        <div className="hidden md:flex justify-center absolute bottom-8 left-0 right-0">
+        <div
+          className="
+            hidden md:flex
+            justify-center
+            absolute bottom-8
+            left-0 right-0
+          "
+        >
 
           <Link
             to="about"
             smooth={true}
             duration={500}
-            className="cursor-pointer animate-bounce text-slate-500 dark:text-slate-400"
+            className="
+              cursor-pointer
+              animate-bounce
+              text-slate-500
+              dark:text-slate-400
+            "
           >
             Explore More ↓
           </Link>
