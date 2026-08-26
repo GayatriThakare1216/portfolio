@@ -12,6 +12,14 @@ function Experience() {
     },
 
     {
+      title: "Web Developer Intern",
+      company: "THE PIXEL MIND",
+      duration: "Aug 2025 - Feb 2026",
+      description:
+        "Developed responsive web interfaces using Next.js, React.js and Tailwind CSS. Built reusable UI components and worked with Git, database management and deployment workflows.",
+    },
+
+    {
       title: "Full Stack Development Projects",
       company: "Personal Projects",
       duration: "2025 - Present",
@@ -56,9 +64,9 @@ function Experience() {
             leading-7
           "
         >
-          My professional journey includes internship experience and
-          hands-on development of real-world applications using modern
-          frontend and full-stack technologies.
+My professional journey includes hands-on internship experience
+and building real-world applications using modern frontend and
+full-stack technologies.
         </p>
 
         {/* Timeline */}

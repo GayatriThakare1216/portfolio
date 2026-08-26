@@ -1,5 +1,4 @@
 const certificates = [
-
   {
     id: 1,
     title: "Frontend Developer Internship",
@@ -14,6 +13,18 @@ const certificates = [
 
   {
     id: 2,
+    title: "Web Development Internship",
+    issuer: "THE PIXEL MIND",
+    year: "February-2026",
+    Credential_ID: "Internship Completion Certificate",
+    badge: "Internship",
+    description:
+      "Completed a six-month Web Development Internship at The Pixel Mind with hands-on experience in Next.js, React.js, Tailwind CSS, database management, version control and deployment workflows.",
+    Certificate_url: "/certificates/pixelmind-internship-certificate.pdf",
+  },
+
+  {
+    id: 3,
     title: "Complete Full-Stack Web Development",
     issuer: "Udemy",
     year: "July-2026",
@@ -24,7 +35,7 @@ const certificates = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "JavaScript",
     issuer: "HackerRank",
     year: "July-2026",
@@ -35,7 +46,7 @@ const certificates = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Fundamental of Docker & Kubernetes",
     issuer: "SCALER",
     year: "July-2026",
@@ -45,7 +56,7 @@ const certificates = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Generative AI Studio",
     issuer: "Simplilearn / Google Cloud",
     year: "2025",
@@ -55,7 +66,7 @@ const certificates = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Artificial Intelligence",
     issuer: "Simplilearn / SkillUP",
     year: "July-2026",
@@ -65,7 +76,7 @@ const certificates = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Application Development with AI & Essential Skills",
     issuer: "NCRD's Sterling Institute of Management Studies",
     year: "2025",

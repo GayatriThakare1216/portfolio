@@ -24,7 +24,7 @@ const stats = [
     title:"Projects"
   },
   {
-    number:"1",
+    number:"2",
     title:"Internship"
   },
   {
@@ -414,7 +414,7 @@ sm:col-span-2
 <FaBriefcase className="text-blue-500"/>
 
 <span>
-Frontend Developer Intern • Smart Access
+  Frontend Developer • 2 Internships
 </span>
 
 
