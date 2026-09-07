@@ -1,6 +1,18 @@
 const certificates = [
   {
     id: 1,
+    title: "Web Development Internship",
+    issuer: "Zidio Development",
+    year: "June - August 2026",
+    Credential_ID: "ZIDIOKgLPBe",
+    badge: "Internship",
+    description:
+      "Successfully completed a two-month Web Development Internship at Zidio Development from 25 June 2026 to 25 August 2026, with exposure to responsive web application development, UI/UX implementation, API integration, clean and modular coding, debugging, performance optimization, documentation, and Agile development practices.",
+    Certificate_url: "/certificates/Zidiocertificate.pdf",
+  },
+
+  {
+    id: 2,
     title: "Frontend Developer Internship",
     issuer: "SMART ACCESS",
     year: "June-2026",
@@ -12,7 +24,7 @@ const certificates = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Web Development Internship",
     issuer: "THE PIXEL MIND",
     year: "February-2026",
@@ -24,7 +36,7 @@ const certificates = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Complete Full-Stack Web Development",
     issuer: "Udemy",
     year: "July-2026",
@@ -35,7 +47,7 @@ const certificates = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "JavaScript",
     issuer: "HackerRank",
     year: "July-2026",
@@ -46,7 +58,7 @@ const certificates = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Fundamental of Docker & Kubernetes",
     issuer: "SCALER",
     year: "July-2026",
@@ -56,7 +68,7 @@ const certificates = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Generative AI Studio",
     issuer: "Simplilearn / Google Cloud",
     year: "2025",
@@ -66,17 +78,18 @@ const certificates = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Artificial Intelligence",
     issuer: "Simplilearn / SkillUP",
     year: "July-2026",
     Credential_ID: "10481144",
+    badge: "Certified",
     Certificate_url:
       "https://simpli-web.app.link/e/kY8qg8jYQ4b",
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Application Development with AI & Essential Skills",
     issuer: "NCRD's Sterling Institute of Management Studies",
     year: "2025",

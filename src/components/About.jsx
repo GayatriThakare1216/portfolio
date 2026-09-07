@@ -24,8 +24,8 @@ const stats = [
     title:"Projects"
   },
   {
-    number:"2",
-    title:"Internship"
+    number:"3",
+    title:"Internships"
   },
   {
     number:"10+",
@@ -215,7 +215,7 @@ mb-5
 </h3>
 
 <p className="text-blue-600 dark:text-blue-400 font-semibold mb-6">
-  React.js • Next.js • JavaScript • Tailwind CSS
+  React.js • JavaScript • Tailwind CSS
 </p>
 
 
@@ -414,7 +414,7 @@ sm:col-span-2
 <FaBriefcase className="text-blue-500"/>
 
 <span>
-  Frontend Developer • 2 Internships
+  Frontend Developer • 3 Internships
 </span>
 
 

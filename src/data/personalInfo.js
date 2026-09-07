@@ -5,15 +5,14 @@ const personalInfo = {
 
   resume: "/resume/Gayatri_Thakare_Resume.pdf",
 
-heroDescription:
-  "I build fast, responsive and scalable web applications using React.js, JavaScript and Tailwind CSS. Passionate about creating clean user interfaces, reusable components and seamless user experiences.",
+  heroDescription:
+    "I build fast, responsive and user-friendly web applications using React.js, JavaScript and Tailwind CSS. Passionate about creating clean interfaces, reusable components and seamless user experiences.",
 
   roles: [
     "Frontend Developer",
     "React.js Developer",
-    "Next.js Developer",
     "JavaScript Developer",
-
+    "Web Developer",
   ],
 
   location: "Vasind, Maharashtra",
@@ -25,7 +24,7 @@ heroDescription:
   linkedin: "https://www.linkedin.com/in/gayatrithakare12/",
 
   about:
-    "Frontend Developer passionate about building modern, responsive and scalable web applications using React.js, Next.js, JavaScript and Tailwind CSS. I enjoy creating clean user interfaces, reusable components and interactive user experiences. Currently seeking Frontend Developer opportunities where I can contribute to real-world products, collaborate with experienced teams and continuously enhance my skills.",
+    "I’m Gayatri Thakare, a Frontend Developer and MCA graduate passionate about building fast, responsive, and user-friendly web applications. I specialize in React.js, JavaScript, HTML, CSS, and Tailwind CSS, with hands-on experience in building reusable components, integrating REST APIs, managing application state, and creating responsive user interfaces. Through internships and personal projects, I’ve gained practical experience turning requirements into functional web experiences and working with modern development workflows using Git and GitHub. I enjoy solving frontend problems, learning new technologies, and continuously improving the way I build and structure web applications.",
 
   education: [
     {
@@ -41,8 +40,7 @@ heroDescription:
       institute: "",
       university: "University of Mumbai",
       year: "",
-      score: "CGPA 8.70",
-
+      score: "CGPA: 8.70",
     },
 
     {
@@ -62,13 +60,21 @@ heroDescription:
 
   experience: [
     {
-      company: "Smart Access",
+      company: "Zidio Development",
+      role: "Web Development Intern",
+      duration: "June 2026 - August 2026",
+    },
+    {
+      company: "SMART ACCESS",
       role: "Frontend Developer Intern",
-      duration: "Internship",
+      duration: "Feb 2026 - May 2026",
+    },
+    {
+      company: "THE PIXEL MIND",
+      role: "Web Developer Intern",
+      duration: "Aug 2025 - Feb 2026",
     },
   ],
-
-
 };
 
 export default personalInfo;

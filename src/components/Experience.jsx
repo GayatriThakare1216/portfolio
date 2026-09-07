@@ -3,13 +3,22 @@ import SectionTitle from "./SectionTitle";
 
 function Experience() {
   const experience = [
-    {
-      title: "Frontend Developer Intern",
-      company: "SMART ACCESS",
-      duration: "Feb 2026 - Jun 2026",
-      description:
-        "Developed responsive web interfaces using React.js, JavaScript and Tailwind CSS. Built reusable UI components, implemented responsive layouts, worked on frontend features and contributed to real-world web application development.",
-    },
+
+{
+  title: "Web Developer Intern",
+  company: "Zidio Development",
+  duration: "25 Jun 2026 - 25 Aug 2026",
+  description:
+    "Contributed to responsive web application development with exposure to UI/UX implementation, API integration, clean and modular coding, debugging, performance optimization, documentation, and Agile development practices.",
+},
+
+{
+  title: "Frontend Developer Intern",
+  company: "SMART ACCESS",
+  duration: "7 Feb 2026 - 3 Jun 2026",
+  description:
+    "Developed responsive web interfaces using React.js, JavaScript and Tailwind CSS. Built reusable UI components, implemented responsive layouts, worked on frontend features and contributed to real-world web application development.",
+},
 
     {
       title: "Web Developer Intern",

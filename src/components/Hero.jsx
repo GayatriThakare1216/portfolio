@@ -176,11 +176,11 @@ function Hero() {
                 "
               >
                 <h3 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-                  2
+                  3
                 </h3>
 
                 <p className="text-slate-500 dark:text-slate-400 text-sm">
-                  Internship
+                  Internships
                 </p>
               </div>
 
